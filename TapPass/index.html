@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.3.2-dist/css/bootstrap.css"
+    />
+    <script src="./assets/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <!-- BOOTSTRAP-ICONS -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-icons-1.11.1/bootstrap-icons.css"
+    />
+    <!-- SWEETALERT -->
+    <script src="./assets/sweetalert2/sweetalert2.all.js"></script>
+    <!-- FONT-AWESOME -->
+    <title>TapPass</title>
+  </head>
+  <body data-bs-theme="light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">TapPass</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">หน้าหลัก</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">รายละเอียด</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">เกี่ยวกับ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ผู้จัดทำ</a>
+            </li>
+          </ul>
+
+          <div class="d-grid gap-2 col-1">
+            <button type="button" class="btn btn-success">เข้าสู่ระบบ</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <i class="bi bi-moon-fill"></i>
+      <div class="form-check form-switch mx-3">
+        <input
+          class="form-check-input p-2"
+          type="checkbox"
+          onclick="myFunction()"
+        />
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  function myFunction() {
+    var element = document.body;
+    element.dataset.bsTheme =
+      element.dataset.bsTheme == "light" ? "dark" : "light";
+  }
+</script>
