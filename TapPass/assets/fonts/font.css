@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: normal;
+  src: url("./Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Prompt";
+  font-weight: bold;
+  /* src: url("./Prompt-Medium.ttf") format("truetype"); */
+  src: url("./Prompt-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kanit";
+  font-weight: bold;
+  src: url("./Kanit-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sarabun";
+  font-weight: bold;
+  src: url("./Sarabun-Regular.ttf") format("truetype");
+}
+
+.prompt {
+  font-family: "Roboto", "Prompt", sans-serif !important;
+}
+
+.kanit {
+  font-family: "Roboto", "Kanit", sans-serif !important;
+}
+
+.sarabun {
+  font-family: "Sarabun", sans-serif !important;
+}
