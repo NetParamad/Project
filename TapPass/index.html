@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/fonts/font.css" />
     <!-- BOOTSTRAP -->
     <link
       rel="stylesheet"
@@ -19,133 +20,181 @@
 
     <title>TapPass</title>
   </head>
-  <body data-bs-theme="light">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="#" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-          TapPass</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="bi bi-house-fill"></i> Home | หน้าหลัก</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="bi bi-gear-fill"></i> System | ระบบ</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="bi bi-tag-fill"></i> About | เกี่ยวกับ</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="bi bi-people-fill"></i> Organizer | ผู้จัดทำ</a
-              >
-            </li>
-          </ul>
-          <form class="d-flex">
+  <body data-bs-theme="light " class="kanit">
+    <img
+      src="./assets/images/item.jpg"
+      class="card-img-top"
+      alt="..."
+      height="300px"
+    />
+    <div class="card">
+      <div
+        class="card-header card-footer d-flex flex-column justify-content-center align-items-center"
+      >
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container justify-content-center align-items-center">
+            <h5 class="card-title mx-2 my-2"><b>TapPass</b></h5>
             <button
+              class="navbar-toggler"
               type="button"
-              class="btn btn-secondary mx-2"
-              onclick="myFunction()"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              <i class="bi bi-moon-stars-fill"></i>
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <button type="button" class="btn btn-success">
-              <i class="bi bi-person-fill"></i> เข้าสู่ระบบ
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./assets/images/item.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/images/item.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/images/item.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <div class="container my-3">
-      <div class="row">
-        <div class="col-9">
-          <div class="card text-center">
-            <div class="card-header">
-              Featured
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="bi bi-house-fill"></i> Home | หน้าหลัก</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="bi bi-gear-fill"></i> System | ระบบ</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="bi bi-tag-fill"></i> About | เกี่ยวกับ</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="bi bi-people-fill"></i> Organizer | ผู้จัดทำ</a
+                  >
+                </li>
+              </ul>
             </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row my-3">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <h5 class="card-header text-center">ระบบที่จอดรถแบบชำระเงิน</h5>
             <div class="card-body">
               <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-            <div class="card-footer text-body-secondary">
-              2 days ago
             </div>
           </div>
         </div>
-        <div class="col-3">          <div class="card text-center">
-          <div class="card-header">
-            Featured
+        <div class="col-sm-6">
+          <div class="card">
+            <h5 class="card-header text-center">ระบบอื่นๆ</h5>
+            <div class="card-body">
+              <div class="list-group">
+                <a href="#" class="btn btn-success mx-3 mb-2"
+                  ><i class="bi bi-person-fill"></i> เข้าสู่ระบบ</a
+                >
+                <a href="#" class="btn btn-warning mx-3 mb-2"
+                  ><i class="bi bi-pencil-fill"></i> ลงทะเบียน</a
+                >
+
+                <a
+                  type="button"
+                  class="btn btn-secondary mx-3"
+                  onclick="myFunction()"
+                >
+                  <i class="bi bi-moon-stars-fill"></i> เปลียนโหมด
+                </a>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/images/item.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/images/item.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/images/item.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card my-3">
+          <h5 class="card-header text-center">เกี่ยวกับ</h5>
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
-          <div class="card-footer text-body-secondary">
-            2 days ago
+        </div>
+        <div class="card mb-3">
+          <img
+            src="./assets/images/item.jpg"
+            class="card-img-top"
+            alt="..."
+            height="300px"
+          />
+          <h5 class="card-header text-center">ผู้จัดทำ</h5>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                นายปารเมศ ชูเชิดรัตนา <b>IT</b> วิทยาลัยเทคนิคลำปาง
+              </li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
           </div>
-        </div></div>
+        </div>
       </div>
     </div>
   </body>
 </html>
+
 <script>
   function myFunction() {
     var element = document.body;
