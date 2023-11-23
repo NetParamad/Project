@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/fonts/font.css" />
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.3.2-dist/css/bootstrap.css"
+    />
+    <script src="./assets/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <!-- BOOTSTRAP-ICONS -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-icons-1.11.1/bootstrap-icons.css"
+    />
+    <!-- SWEETALERT -->
+    <script src="./assets/sweetalert2/sweetalert2.all.js"></script>
+
+    <title>TapPass</title>
+  </head>
+  <body class="kanit">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <h5 class="card-title mx-2 my-2"><b>TapPass</b></h5>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                ><i class="bi bi-person-fill"></i> Personal | ข้อมูลส่วนตัว</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                ><i class="bi bi-cash-stack"></i> Balance | เงินคงเหลือ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                ><i class="bi bi-bank2"></i> Payment | การชำระเงิน</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <a class="btn btn-outline-danger" type="submit" href="./login.html">
+              ออกจากระบบ
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/images/item.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">ข้อมูลส่วนตัว</h5>
+              <p class="card-text">
+                คือ ข้อมูลที่สามารถระบุตัวบุคคลนั้นได้ <br />
+                (ระบุไปถึงเจ้าของข้อมูล)
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/images/item.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">เงินคงเหลือ</h5>
+              <p class="card-text">
+                การดูยอดเงินคงเหลือในบัญชี <br />
+                สามารถเพิ่มยอดเงินได้ที่เจ้าหน้าของสถานศึกษา
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/images/item.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">การชำระเงิน</h5>
+              <p class="card-text">
+                เพื่อให้การชำระเงิน มีประสิทธิภาพ และปลอดภัย <br />
+                สามารถดูประวัติย้อนหลังได้
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-warning" role="alert">
+        <strong>คำเตือน!!</strong> หากมีข้อผิดพลาดหรือไม่สามรถ้งานได้ กรุณาติดต่อ
+        เจ้าหน้าที่งานทะเบียน ของสถานศึกษา
+      </div>
+    </div>
+  </body>
+</html>

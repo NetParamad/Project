@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signin Template · Bootstrap v5.3</title>
+    <link rel="stylesheet" href="./assets/fonts/font.css" />
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.3.2-dist/css/bootstrap.css"
+    />
+    <script src="./assets/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <!-- BOOTSTRAP-ICONS -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-icons-1.11.1/bootstrap-icons.css"
+    />
+    <!-- SWEETALERT -->
+    <script src="./assets/sweetalert2/sweetalert2.all.js"></script>
+
+    <title>TapPass</title>
+
+    <!-- Custom styles for this template -->
+    <link href="login.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex align-items-center py-4 bg-body-tertiary kanit">
+    <main class="form-signin w-100 m-auto">
+      <form>
+        <div class="text-center">
+          <img
+            class="mb-4"
+            src="./assets/images/item.jpg"
+            alt=""
+            width="100"
+            height="75"
+          />
+        </div>
+        <h1 class="h3 mb-3 fw-normal"><a href="./home.html"><i class="bi bi-person-fill"></i></a> เข้าสู่ระบบ</h1>
+
+        <div class="form-floating">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder=""
+          />
+          <label for="floatingInput">ผู้ใช้งาน</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder=""
+          />
+          <label for="floatingPassword">รหัสผ่าน</label>
+        </div>
+        <button class="btn btn-primary w-100 py-2" type="submit">ตกลง</button>
+        <a class="btn btn-warning w-100 py-2 mt-3" href="./index.html">
+          กลับหน้าหลัก
+        </a>
+      </form>
+      <div class="alert alert-warning my-3" role="alert">
+        <strong> ชื่อผู้ใช้งานคือ </strong> รหัสประจำตัวนักเรียน <br />
+        <strong> รหัสผ่านคือ </strong> วัน/เดือน/ปีเกิด เช่น 24/12/2546
+      </div>
+      <div class="alert alert-danger" role="alert">
+        <strong>เข้าระบบไม่ได้</strong> ติดต่อ เจ้าหน้าที่งานทะเบียน
+        ของสถานศึกษา
+      </div>
+    </main>
+  </body>
+</html>
